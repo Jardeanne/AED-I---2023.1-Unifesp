@@ -3,7 +3,7 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-	// Declaração de um array de inteiros com tamanho 10
+	// DeclaraÃ§Ã£o de um array de inteiros com tamanho 10
 	int X[10];
 	
 	for(int i=0; i<10; i++){
@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 		if(X[i]<=0) X[i] = 1;
 	}
 
-	// Laço de repetição para imprimir os valores do array X
+	// LaÃ§o de repetiÃ§Ã£o para imprimir os valores do array X
 	for(int i=0; i<10; i++){
 		cout<<"X["<<i<<"] = "<<X[i]<<endl;
 	}
