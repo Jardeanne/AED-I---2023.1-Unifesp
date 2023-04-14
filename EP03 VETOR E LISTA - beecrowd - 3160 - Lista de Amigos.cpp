@@ -16,15 +16,15 @@ int main(int argc, char** argv)
     // Leitura do nome do amigo indicado
     getline(cin, indicatedFriend);
 
-    // VerificaÁ„o se deve indicar a nova lista para algum amigo
+    // Verifica√ß√£o se deve indicar a nova lista para algum amigo
     if (indicatedFriend != "nao") {
-        // Encontrando a posiÁ„o do amigo indicado na lista atual de amigos
+        // Encontrando a posi√ß√£o do amigo indicado na lista atual de amigos
         int pos = currentFriendsList.find(indicatedFriend);
 
         // Inserindo a nova lista de amigos antes do amigo indicado
         currentFriendsList.insert(pos, newFriendsList + " ");
     } else {
-        // Caso n„o haja indicaÁ„o, os novos amigos s„o adicionados no fim da lista atual
+        // Caso n√£o haja indica√ß√£o, os novos amigos s√£o adicionados no fim da lista atual
         currentFriendsList += " " + newFriendsList;
     }
 
